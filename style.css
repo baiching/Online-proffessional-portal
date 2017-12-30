@@ -1,0 +1,319 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/*header style*/
+.headback{
+	background: #383234;
+	overflow: hidden;
+}
+.Mid
+{
+	width:90%;
+	margin: auto;
+}
+.headback .mid{
+	width: 50%;
+	
+
+}
+.headback
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+}
+.headback .mid h2{
+	color: #338557;
+	margin : 0px 0px 0px 0px;
+	
+	font-family: 'Orbitron', tahoma;}
+	
+
+.mid0{
+	float : right;
+	
+	display: inline;
+	width: 50%;
+
+}
+.mid1{
+display: inline;
+}
+.mid2{
+display: inline;
+}
+.mid1 input{
+	width: 180px;
+	padding: 5px;
+	border-radius: 5px;
+
+}
+.mid2 input{
+	width: 90px;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: skyblue;
+
+}
+
+.mid2 input:hover{
+	cursor: pointer;
+	background-color: #3498DB;
+}
+/*body style*/
+
+.web-body{
+	
+	height : 588px;
+	background-image: url(image/BackIm.jpg);
+	
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	overflow: hidden;
+	position: relative;
+
+	
+}
+.blar {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .6);
+	overflow: hidden;
+	box-sizing:  border-box;
+
+}
+
+
+.web-body .regbox{
+	height:470px;
+	width: 365px;
+	background-color: gray;
+	margin: 65px 10px 10px 495px;
+	padding : 10px;
+	opacity: .78;
+	border-radius: 10px;
+	border:2px solid #EDF0F3;
+	text-align: center;
+	transition: 1s;
+	position: absolute;
+}
+.web-body .regbox .regin{
+	height:80px;
+	width: 365px;
+	border:.2px solid #EDF0F3;
+
+}
+.web-body .regbox .name{
+	height:60px;
+	width: 365px;
+	border:.2px solid #EDF0F3;
+
+}
+.web-body .regbox .name label{
+	
+	display: block;
+	line-height: 33px;
+	cursor: pointer;
+
+text-align: center;
+
+}
+.web-body .regbox .name input{
+	
+	display: block;
+	margin : auto;
+	width : 80%;
+	padding : 3px;
+	border-radius: 7px;
+
+}
+.web-body .regbox .email{
+	height:60px;
+	width: 365px;
+	border:.2px solid #EDF0F3;
+	display: block;
+
+}
+.web-body .regbox .email label{
+	
+	display: block;
+	line-height: 33px;
+	cursor: pointer;
+	text-align: center;
+}
+.web-body .regbox .email input{
+	
+	display: block;
+	margin : auto;
+	width : 80%;
+	padding : 3px;
+	border-radius: 7px;
+
+}
+.web-body .regbox .phone{
+	height:60px;
+	width: 365px;
+	border:.2px solid #EDF0F3;
+	display: block;
+
+}
+.web-body .regbox .phone label{
+	
+	display: block;
+	line-height: 33px;
+	cursor: pointer;
+	text-align: center;
+}
+.web-body .regbox .phone input{
+	
+	display: block;
+	margin : auto;
+	width : 80%;
+	padding : 3px;
+	border-radius: 7px;
+
+}
+.web-body .regbox .phone{
+	height:60px;
+	width: 365px;
+	border:.2px solid #EDF0F3;
+	display: block;
+
+}
+.web-body .regbox .phone label{
+	
+	display: block;
+	line-height: 33px;
+	cursor: pointer;
+	text-align: center;
+}
+.web-body .regbox .phone input{
+	
+	display: block;
+	margin : auto;
+	width : 80%;
+	padding : 3px;
+	border-radius: 7px;
+
+}
+.web-body .regbox .pass{
+	height:60px;
+	width: 365px;
+	border:.2px solid #EDF0F3;
+	display: block;
+
+}
+.web-body .regbox .pass label{
+	
+	display: block;
+	line-height: 33px;
+	cursor: pointer;
+	text-align: center;
+}
+.web-body .regbox .pass input{
+	
+	display: block;
+	margin : auto;
+	width : 80%;
+	padding : 3px;
+	border-radius: 7px;
+
+}
+.web-body .regbox .cpass{
+	height:60px;
+	width: 365px;
+	border:.2px solid #EDF0F3;
+	display: block;
+
+}
+.web-body .regbox .cpass label{
+	
+	display: block;
+	line-height: 33px;
+	cursor: pointer;
+	text-align: center;
+}
+.web-body .regbox .cpass input{
+	
+	display: block;
+	margin : auto;
+	width : 80%;
+	padding : 3px;
+	border-radius: 7px;
+
+}
+.web-body .regbox .regest{
+	height:60px;
+	width: 365px;
+	border:.2px solid #EDF0F3;
+	display: block;
+
+}
+.web-body .regbox .regest input{
+	
+	display: block;
+	margin: 5px 0px 0px 90px;
+	padding : 15px;
+	width: 175px;
+	background-color: skyblue;
+	cursor: pointer;
+	border-radius: 7px;
+
+}
+.web-body .regbox .regest input:hover{
+	
+	display: block;
+	margin:5px 0px 0px 90px;
+	padding : 15px;
+	width: 175px;
+	background-color: #079DB8;
+	cursor: pointer;
+	border-radius: 7px;
+
+}
+
+/*bottom style
+.bback{
+	height : 80px;
+	background: #383234;
+	overflow: hidden;
+}
+.bback .mid{
+	width: 80%;
+	margin:25px 0px 0px 457px;
+
+}
+.bback .mid1{
+	display: inline-block;
+
+}
+.bback .mid2{
+	display: inline-block;
+}
+.bback .mid1 input{
+	width: 180px;
+	padding: 5px;
+	border-radius: 5px;
+
+}
+.bback .mid2 input{
+	width: 90px;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: skyblue;
+
+}
+.bback .mid2 input:hover{
+	cursor: pointer;
+	background-color: #3498DB;
+
+
+}*/
+
+.val_error{
+	color: #FF1F1F;
+}
+
+

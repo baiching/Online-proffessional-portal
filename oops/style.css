@@ -1,0 +1,116 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/*header style*/
+.headback{
+	height : 80px;
+	background: #383234;
+	overflow: hidden;
+}
+.headback .mid{
+	width: 5%;
+	margin: auto;
+
+}
+.headback .mid h2{
+	color: #338557;
+	margin:21px auto ;
+font-family: 'Orbitron', tahoma;
+}
+
+
+/*body style*/
+.blar {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .6);
+	overflow: hidden;
+	box-sizing:  border-box;
+}
+
+.web-body{
+	height : 579px;
+	background-image: url(image/BackIm.jpg);
+	
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	overflow: hidden;
+}
+
+.web-body .regbox{
+	height:325px;
+	width: 365px;
+	background-color: gray;
+	margin: 130px 10px 10px 495px;
+	padding : 10px;
+	opacity: .78;
+	border-radius: 10px;
+	border:2px solid #EDF0F3;
+	text-align: center;
+	transition: 1s;
+	position: absolute;
+}
+.web-body .regbox .regin{
+	height:95px;
+	width: 365px;
+
+}
+
+.web-body .regbox .email{
+	height:60px;
+	width: 365px;
+	display: block;
+
+}
+.web-body .regbox .email input{
+	
+	display: block;
+	margin : auto;
+	width : 80%;
+	padding : 3px;
+	border-radius: 7px;
+
+}
+
+.web-body .regbox .pass{
+	height:60px;
+	width: 365px;
+	display: block;
+	position: center;
+
+}
+.web-body .regbox .pass input{
+	
+	display: block;
+	margin : 8px 0px 0px 31px;
+	width : 80%;
+	padding : 3px;
+	border-radius: 7px;
+
+}
+.web-body .regbox .regest{
+	height:90px;
+	width: 365px;
+	display: block;
+
+}
+.web-body .regbox .regest input{
+	
+	display: block;
+	margin: 5px 0px 10px 90px;
+	padding : 15px;
+	width: 175px;
+	background-color: skyblue;
+	cursor: pointer;
+	border-radius: 7px;
+
+}
+.web-body .regbox .regest input:hover{
+	
+	background-color: #079DB8;
+	cursor: pointer;
+
+}
+
